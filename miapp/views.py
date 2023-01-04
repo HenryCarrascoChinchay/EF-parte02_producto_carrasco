@@ -31,6 +31,27 @@ layout = """
 def index(request):
     
 
-    return render(request)
+    return render(request,'index.html')
+
+def integrantes(request):
+
+    return render(request,'integrantes.html')
+
+def crear_docente(request):
+
+    return render(request,'crear_docente.html')
+    
+def listar_docentes(request):
+
+    return render(request,'listar_docente.html')
+
+def crear_curso(request):
+
+    return render(request,'crear_curso.html')
+
+def listar_cursos(request):
+
+    return render(request,'listar_cursos.html')
+
 
 # Create your views here.

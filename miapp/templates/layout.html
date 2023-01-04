@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <title>
-            
+            PROYECTO WEB
         </title>
         
-        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+        
     </head>
     </head>
     <body>
@@ -19,21 +19,24 @@
         <nav>        
             <ul>
                 <li>
-                    <a href="{% url 'inicio' %}"> Inicio</a>
+                    <a href="/inicio"> Inicio</a>
+                </li>
+
+                <li>
+                    <a href="/integrantes"> Integrantes</a>
+                </li>
+
+                <li>
+                    <a href="/crear_docente"> Crear Docente</a>
                 </li>
                 <li>
-                    <a href="{% url 'integrantes' %}"> Integrantes</a>
-                </li>
-                <li>
-                    <a href="{% url 'crear_docente' %}"> Crear Docente</a>
-                </li>
-                    <a href="{% url 'listar_docentes' %}"> Listar Docentes</a>
+                    <a href="/listar_docentes"> Listar Docentes</a>
                 </li>    
+                <li>
+                    <a href="/crear_curso"> Crear Curso</a>
                 </li>
-                    <a href="{% url 'crear_curso' %}"> Crear Curso</a>
-                </li>
-                </li>
-                    <a href="{% url 'listar_cursos' %}"> Listar Cursos </a>
+                <li>
+                    <a href="/listar_cursos"> Listar Cursos </a>
                 </li>
             </ul>
         </nav>        
